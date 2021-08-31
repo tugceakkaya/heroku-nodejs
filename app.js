@@ -9,7 +9,7 @@ app.use('/abc', movies);
 
 
 app.get('/', (req,res) => {
-    res.send('Welcome to Daily Code Buffer in Heroku Auto Deployment ın Heroku');
+    res.send('Welcome to Daily Code Buffer in Heroku Auto Deployment ın Heroku tugce');
 })
 
 
