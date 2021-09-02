@@ -1,5 +1,5 @@
 {
-  "name": "node-tutorial",
+  "name": "tutorial",
   "version": "1.0.0",
   "description": "Node Js Tutorial",
   "main": "app.js",
@@ -10,8 +10,19 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
+    "cors": "^2.8.5",
     "debug": "4.1.1",
     "express": "^4.17.1",
+    "mongoose": "^6.0.4",
     "nodemon": "^2.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tugceakkaya/heroku-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tugceakkaya/heroku-nodejs/issues"
+  },
+  "homepage": "https://github.com/tugceakkaya/heroku-nodejs#readme"
 }
