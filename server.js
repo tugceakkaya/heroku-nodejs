@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
 
 // set port, listen for requests
 require("./routes/tutorial.routes")(app);
-const port = process.env.PORT || 8000;
-server.listen(port, () => {
-  console.log("App is running on port " + port);
-});
+
+
+const port = process.env.PORT || '8080';
+app.listen(port, () => console.log(`Server started on Port ${port}`));
